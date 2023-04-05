@@ -13,6 +13,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_wall_layout: ^2.1.1
 
+  mimundoupc:
+    path: "./modules/mimundoupc"
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

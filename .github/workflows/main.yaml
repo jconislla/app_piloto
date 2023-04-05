@@ -1,0 +1,10 @@
+# .github/workflows/my_flutter_package.yaml
+name: add_to_app
+on: pull_request
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      coverage_excludes: "*.g.dart *.freezed.dart" # defaults to "" (none)
+      flutter_channel: stable
